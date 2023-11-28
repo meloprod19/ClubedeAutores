@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Signature</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .card {
+        margin: 20px;
+        padding: 10px;
+        max-width: 500px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+      }
+      .email-signature {
+        margin: 20px;
+        padding: 10px;
+        text-align: left;
+      }
+      .line-separator {
+        width: 50px;
+        height: 1px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: gray;
+      }
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px;
+        color: #bf358f;
+        font-family: exo;
+      }
+      .job-title {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #555;
+        font-family: exo;
+      }
+      .contact-info {
+        margin: 0px;
+        font-size: 12px;
+        color: #777;
+        display: flex;
+        flex-direction: column;
+      }
+      .contact-info a {
+        margin-top: 5px;
+        display: flex;
+        text-decoration: none;
+        color: #777;
+        align-self: flex-start;
+        font-family: exo;
+      }
+      .contact-info img {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        margin-top: -1px;
+      }
+      .image img {
+        width: 200px; /* Define a largura da imagem como 100% da largura do contêiner pai /
+        height: 50px; / Mantém a proporção da imagem */
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+      .box img {
+        width: 160px;
+        height: 35px;
+        margin-left: px;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image">
+        <img src="https://private-user-images.githubusercontent.com/80973743/286418799-f3d12823-8a76-4286-919a-4909109d6185.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEyMTExMDUsIm5iZiI6MTcwMTIxMDgwNSwicGF0aCI6Ii84MDk3Mzc0My8yODY0MTg3OTktZjNkMTI4MjMtOGE3Ni00Mjg2LTkxOWEtNDkwOTEwOWQ2MTg1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTI4VDIyMzMyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllMGU0OTE5MDlkOGQwZDE4ZDUyMzc0ZWI0YTM0NjAyODYyMjEyYWI2OGNlNDhjNzIxMzkyMmU1ZmZmMDE3OGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.4vzGRcF5KY-tBmuFGu5HPPGEOhwEsZDgyMMAZy4n260" alt="Imagem de perfil" />
+      </div>
+      <div class="email-signature">
+        <p class="name">Ricardo Almeida</p>
+        <p class="job-title">CEO</p>
+        <p class="line-separator"></p>
+        <p class="contact-info">
+          <a href="https://twitter.com/yourusername" target="_blank"><img src="https://private-user-images.githubusercontent.com/80973743/286414828-e8cd3662-3b82-4f7f-a29f-9ef3cb371041.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEyMDk5MjMsIm5iZiI6MTcwMTIwOTYyMywicGF0aCI6Ii84MDk3Mzc0My8yODY0MTQ4MjgtZThjZDM2NjItM2I4Mi00ZjdmLWEyOWYtOWVmM2NiMzcxMDQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTI4VDIyMTM0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ0YmUzN2IwZWQ0MmRhOTVkYTlkMTc2OTU4YWZjYmMwNmFkMTU2MjM0NTQ4MjNkYmU1NWExYzRhYmIzZDliMjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.rzDlnXnqj9uMqplb8ivpIzzMHIgRXOIPuTL7yMIP1b8" alt="" />+ 3512 932 052 180</a>
+          <a href="https://www.linkedin.com/in/ricardo-ralmeida" target="_blank"><img src="https://private-user-images.githubusercontent.com/80973743/286414177-feb9104f-0106-4183-b25f-c3929ea7740f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEyMDk5MjQsIm5iZiI6MTcwMTIwOTYyNCwicGF0aCI6Ii84MDk3Mzc0My8yODY0MTQxNzctZmViOTEwNGYtMDEwNi00MTgzLWIyNWYtYzM5MjllYTc3NDBmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTI4VDIyMTM0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE0YzYwZTgzYTUwYTliNmIxYWVlZDA1MWEzMWU3YWU4NjY0ODNkN2UzN2U3ZmI4MDNiYjRmNzdiNWU3ZTQ0MTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.VxjbC5hNYj2SAYiZigArVTiTygVZ3F48SuMknl5mauA" alt="" />linkedin.com/ln/ricardo-ralmeida</a>
+          <a href="https://twitter.com/yourusername" target="_blank"><img src="https://private-user-images.githubusercontent.com/80973743/286414170-062cc9a9-1822-4250-a3bc-2cb529e7aceb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEyMDk5MjQsIm5iZiI6MTcwMTIwOTYyNCwicGF0aCI6Ii84MDk3Mzc0My8yODY0MTQxNzAtMDYyY2M5YTktMTgyMi00MjUwLWEzYmMtMmNiNTI5ZTdhY2ViLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTI4VDIyMTM0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE3NTFmYzZkYWZlNTQ2MmIxYzZlZGFmZDExZWJiOTRmZjRjZGE3N2JjZjQyMmU5ZGQwOGI3ZGZjZGExYTkxZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.SfG7gLoLciy5aWv-z0m-g3lPQoGXUmi1WL2UZn0LtsU" alt="" />ralmeida@clubedeautores.com.br</a>
+        </p>
+        <div class="box"> 
+        <a href="https://linktr.ee/_clubedeautores_ target="_blank">
+         <img src="https://private-user-images.githubusercontent.com/80973743/286419679-49405a8c-d026-4b5b-9a70-72847155712a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEyMTEzNzEsIm5iZiI6MTcwMTIxMTA3MSwicGF0aCI6Ii84MDk3Mzc0My8yODY0MTk2NzktNDk0MDVhOGMtZDAyNi00YjViLTlhNzAtNzI4NDcxNTU3MTJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTI4VDIyMzc1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxNDRjNjRmNjBlN2MwYTViNTk2ZjllNWU4NGE3ZTAwMzE3ZTk5NWQxZTUxZThiMjQzODg2MjY0MTk4OWQ3MjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qIllCyUOrInc71hZS3TKpwA9HhY-rDN2RdGknRhK6_s"></div></a>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
